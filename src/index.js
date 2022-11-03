@@ -23,5 +23,19 @@ app.post("/sign-up", (request, response) => {
 })
 
 
+// TWEETS
+let tweets = []
+
+app.post("/tweets", (request, response) => {
+    const tweet = request.body
+
+    tweets.push(tweet)
+
+    response.send("OK")
+})
+
+
+
+
 
 
