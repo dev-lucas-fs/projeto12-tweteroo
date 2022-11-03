@@ -7,3 +7,21 @@ const app = express()
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`)
 })
+
+// ROTAS
+
+
+// SIGN-UP
+let user = []
+
+app.post("/sign-up", (request, response) => {
+    const user = request.body
+
+    user.push(user)
+
+    response.send("OK")
+})
+
+
+
+
