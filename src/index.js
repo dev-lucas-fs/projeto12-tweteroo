@@ -5,5 +5,5 @@ const PORT = 5000
 const app = express()
 
 app.listen(PORT, () => {
-    console.log(`Servido rodando na porta ${PORT}`)
+    console.log(`Servidor rodando na porta ${PORT}`)
 })
